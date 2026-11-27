@@ -78,7 +78,7 @@
 
     <line x1="102" y1="316" x2="358" y2="316" stroke="#1b222d" stroke-width="1"/>
     <text x="102" y="342" fill="#94a3b8" font-family="ui-monospace, monospace" font-size="11">github.com/mradityasonicse</text>
-    <text x="358" y="342" text-anchor="end" fill="#64748b" font-family="ui-monospace, monospace" font-size="11">33 repos</text>
+    <text x="358" y="342" text-anchor="end" fill="#64748b" font-family="ui-monospace, monospace" font-size="11">34 repos</text>
 
     <g clip-path="url(#ly-d-card-clip)">
       <polygon points="40,94 120,94 40,372 -40,372" fill="url(#ly-d-glare)" class="lyd-sheen"/>
