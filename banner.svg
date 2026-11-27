@@ -1,142 +1,108 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="100%" role="img" aria-label="Aditya Soni - Software, AI, Cybersecurity and Full-Stack Engineer Hero Banner">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="100%" role="img" aria-label="Aditya Soni — AI Systems, Cybersecurity, Python and TypeScript Engineer">
   <defs>
-    <linearGradient id="banner-dark-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#060a13"/>
-      <stop offset="50%" stop-color="#0c1528"/>
-      <stop offset="100%" stop-color="#111b36"/>
+    <linearGradient id="bn-d-edge" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.5"/>
     </linearGradient>
-    <linearGradient id="banner-dark-shimmer" x1="0%" y1="0%" x2="200%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8"/>
-      <stop offset="30%" stop-color="#818cf8"/>
-      <stop offset="65%" stop-color="#2dd4bf"/>
-      <stop offset="100%" stop-color="#38bdf8"/>
-      <animate attributeName="x1" values="-100%;100%" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="100%;300%" dur="6s" repeatCount="indefinite"/>
+    <linearGradient id="bn-d-scan" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="banner-dark-scan" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.16"/>
-      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
-    </linearGradient>
-    <pattern id="banner-dark-grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1e293b" stroke-width="0.8" stroke-opacity="0.55"/>
+    <pattern id="bn-d-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#161d27" stroke-width="1"/>
     </pattern>
-    <clipPath id="banner-dark-role-clip">
-      <rect x="64" y="216" width="560" height="44"/>
+    <clipPath id="bn-d-role-clip">
+      <rect x="60" y="196" width="560" height="48"/>
     </clipPath>
   </defs>
 
   <style>
     <![CDATA[
-      .bd-pulse { animation: bdPulse 2s ease-in-out infinite; }
-      .bd-cursor { animation: bdBlink 1s step-end infinite; }
-      .bd-scanline { animation: bdScan 5s linear infinite; }
-      .bd-role-1 { animation: bdRole1 12s infinite; }
-      .bd-role-2 { animation: bdRole2 12s infinite; }
-      .bd-role-3 { animation: bdRole3 12s infinite; }
-      .bd-role-4 { animation: bdRole4 12s infinite; }
-      @keyframes bdPulse {
-        0%, 100% { opacity: 1; }
-        50% { opacity: 0.35; }
-      }
-      @keyframes bdBlink {
-        0%, 49% { opacity: 1; }
-        50%, 100% { opacity: 0; }
-      }
-      @keyframes bdScan {
-        0% { transform: translateY(-60px); }
-        100% { transform: translateY(480px); }
-      }
-      @keyframes bdRole1 {
-        0%, 21% { opacity: 1; transform: translateY(0px); }
-        25%, 96% { opacity: 0; transform: translateY(-10px); }
-        100% { opacity: 1; transform: translateY(0px); }
-      }
-      @keyframes bdRole2 {
-        0%, 22% { opacity: 0; transform: translateY(10px); }
-        26%, 46% { opacity: 1; transform: translateY(0px); }
-        50%, 100% { opacity: 0; transform: translateY(-10px); }
-      }
-      @keyframes bdRole3 {
-        0%, 47% { opacity: 0; transform: translateY(10px); }
-        51%, 71% { opacity: 1; transform: translateY(0px); }
-        75%, 100% { opacity: 0; transform: translateY(-10px); }
-      }
-      @keyframes bdRole4 {
-        0%, 72% { opacity: 0; transform: translateY(10px); }
-        76%, 96% { opacity: 1; transform: translateY(0px); }
-        100% { opacity: 0; transform: translateY(-10px); }
-      }
+      .bnd-pulse { animation: bndPulse 2.4s ease-in-out infinite; }
+      .bnd-cursor { animation: bndBlink 1s step-end infinite; }
+      .bnd-scan { animation: bndScan 6s linear infinite; }
+      .bnd-r1 { animation: bndR1 12s infinite; }
+      .bnd-r2 { animation: bndR2 12s infinite; }
+      .bnd-r3 { animation: bndR3 12s infinite; }
+      .bnd-r4 { animation: bndR4 12s infinite; }
+      @keyframes bndPulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+      @keyframes bndBlink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+      @keyframes bndScan { 0% { transform: translateY(-48px); } 100% { transform: translateY(450px); } }
+      @keyframes bndR1 { 0%, 21% { opacity: 1; transform: translateY(0); } 25%, 96% { opacity: 0; transform: translateY(-8px); } 100% { opacity: 1; transform: translateY(0); } }
+      @keyframes bndR2 { 0%, 22% { opacity: 0; transform: translateY(8px); } 26%, 46% { opacity: 1; transform: translateY(0); } 50%, 100% { opacity: 0; transform: translateY(-8px); } }
+      @keyframes bndR3 { 0%, 47% { opacity: 0; transform: translateY(8px); } 51%, 71% { opacity: 1; transform: translateY(0); } 75%, 100% { opacity: 0; transform: translateY(-8px); } }
+      @keyframes bndR4 { 0%, 72% { opacity: 0; transform: translateY(8px); } 76%, 96% { opacity: 1; transform: translateY(0); } 100% { opacity: 0; transform: translateY(-8px); } }
       @media (prefers-reduced-motion: reduce) {
-        .bd-pulse, .bd-cursor, .bd-scanline, .bd-role-2, .bd-role-3, .bd-role-4 { animation: none; opacity: 0; }
-        .bd-role-1 { animation: none; opacity: 1; transform: none; }
+        .bnd-pulse, .bnd-cursor, .bnd-scan, .bnd-r2, .bnd-r3, .bnd-r4 { animation: none; opacity: 0; }
+        .bnd-r1 { animation: none; opacity: 1; transform: none; }
       }
     ]]>
   </style>
 
-  <rect width="1200" height="460" rx="20" fill="url(#banner-dark-bg)"/>
-  <rect width="1200" height="460" rx="20" fill="url(#banner-dark-grid)"/>
-  <circle cx="170" cy="85" r="190" fill="#0ea5e9" fill-opacity="0.10"/>
-  <circle cx="1020" cy="375" r="220" fill="#6366f1" fill-opacity="0.11"/>
-  <rect width="1198" height="458" x="1" y="1" rx="19" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+  <!-- Flat obsidian architectural surface (no purple blobs) -->
+  <rect width="1200" height="440" rx="16" fill="#090b0f"/>
+  <rect width="1200" height="440" rx="16" fill="url(#bn-d-grid)"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="438.5" rx="15.25" fill="none" stroke="url(#bn-d-edge)" stroke-width="1.5"/>
 
-  <circle cx="56" cy="46" r="6" fill="#ef4444"/>
-  <circle cx="78" cy="46" r="6" fill="#f59e0b"/>
-  <circle cx="100" cy="46" r="6" fill="#10b981"/>
-  <text x="126" y="51" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">aditya@risu-cse:~/engineering-studio</text>
+  <!-- Top Studio Header Bar -->
+  <line x1="60" y1="64" x2="1140" y2="64" stroke="#1b222d" stroke-width="1"/>
+  <circle cx="70" cy="38" r="4.5" fill="#10b981" class="bnd-pulse"/>
+  <text x="84" y="42" fill="#cbd5e1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" font-weight="600">Open to SDE, AI &amp; AppSec Internships</text>
+  <text x="1140" y="42" text-anchor="end" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5">Bhilai, IN · B.Tech CSE 2026–2030</text>
 
-  <rect x="64" y="82" width="286" height="30" rx="15" fill="#0f2922" stroke="#10b981" stroke-opacity="0.55" stroke-width="1"/>
-  <circle cx="84" cy="97" r="4.5" fill="#10b981" class="bd-pulse"/>
-  <text x="98" y="101.5" fill="#34d399" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="700" letter-spacing="0.8">OPEN FOR INTERNSHIPS &amp; ROLES</text>
+  <!-- Left Identity Column -->
+  <text x="60" y="122" fill="#38bdf8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="600">@mradityasonicse</text>
+  <text x="60" y="182" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="56" font-weight="800" letter-spacing="-1.5">Aditya Soni</text>
 
-  <text x="64" y="146" fill="#38bdf8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" font-weight="600">$ whoami --full-spectrum</text>
-  <text x="64" y="206" fill="url(#banner-dark-shimmer)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="1">ADITYA SONI</text>
-
-  <g clip-path="url(#banner-dark-role-clip)">
-    <text x="64" y="246" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20.5" font-weight="600" class="bd-role-1">Python, Backend &amp; CLI Systems Engineer</text>
-    <text x="64" y="246" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20.5" font-weight="600" class="bd-role-2">AI Engineering &amp; Autonomous Agents Builder</text>
-    <text x="64" y="246" fill="#2dd4bf" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20.5" font-weight="600" class="bd-role-3">Cybersecurity, Linux &amp; Bug Bounty Researcher</text>
-    <text x="64" y="246" fill="#a78bfa" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20.5" font-weight="600" class="bd-role-4">Full-Stack TypeScript, React &amp; Next.js Developer</text>
+  <g clip-path="url(#bn-d-role-clip)">
+    <text x="60" y="226" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" class="bnd-r1">AI Engineering &amp; Autonomous Tooling</text>
+    <text x="60" y="226" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" class="bnd-r2">AppSec, Threat Triage &amp; Chrome MV3</text>
+    <text x="60" y="226" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" class="bnd-r3">Python Backend &amp; CLI Automation</text>
+    <text x="60" y="226" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" class="bnd-r4">TypeScript, React &amp; Vite Systems</text>
   </g>
 
-  <text x="64" y="294" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15.5">Shipping autonomous AI tools, defensive security engines, Chrome</text>
-  <text x="64" y="318" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15.5">MV3 extensions, and full-stack TypeScript platforms end-to-end.</text>
+  <text x="60" y="274" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15.5">Building autonomous code-hardening suites, defensive security</text>
+  <text x="60" y="297" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15.5">engines, MV3 blockers, and TypeScript web applications.</text>
 
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">
-    <rect x="64" y="352" width="136" height="32" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1"/>
-    <text x="132" y="372" text-anchor="middle" fill="#cbd5e1">Bhilai, India</text>
+  <!-- Concrete Verified Proof Strip -->
+  <line x1="60" y1="336" x2="600" y2="336" stroke="#1b222d" stroke-width="1"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="60" y="366" fill="#f8fafc" font-size="20" font-weight="700">32</text>
+    <text x="60" y="386" fill="#64748b" font-size="12">Public repos (0 forks)</text>
 
-    <rect x="212" y="352" width="166" height="32" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1"/>
-    <text x="295" y="372" text-anchor="middle" fill="#38bdf8">@mradityasonicse</text>
+    <text x="240" y="366" fill="#38bdf8" font-size="20" font-weight="700">381</text>
+    <text x="240" y="386" fill="#64748b" font-size="12">Yearly contributions</text>
 
-    <rect x="390" y="352" width="212" height="32" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1"/>
-    <text x="496" y="372" text-anchor="middle" fill="#2dd4bf">30+ Public Repositories</text>
+    <text x="420" y="366" fill="#10b981" font-size="20" font-weight="700">RISU</text>
+    <text x="420" y="386" fill="#64748b" font-size="12">B.Tech CSE · Bhilai</text>
   </g>
 
-  <g>
-    <rect x="648" y="68" width="494" height="324" rx="14" fill="#090f1c" fill-opacity="0.96" stroke="#334155" stroke-width="1.2"/>
-    <rect x="648" y="68" width="494" height="36" rx="14" fill="#111c33"/>
-    <rect x="648" y="90" width="494" height="14" fill="#111c33"/>
-    <circle cx="672" cy="86" r="5" fill="#ef4444"/>
-    <circle cx="690" cy="86" r="5" fill="#f59e0b"/>
-    <circle cx="708" cy="86" r="5" fill="#10b981"/>
-    <text x="732" y="90" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">engineer_profile.py</text>
+  <!-- Right Column: Authentic System Spec Window -->
+  <rect x="646" y="92" width="494" height="304" rx="12" fill="#10141c" stroke="#242d3c" stroke-width="1.2"/>
+  <rect x="646" y="92" width="494" height="36" rx="12" fill="#151b26"/>
+  <rect x="646" y="116" width="494" height="12" fill="#151b26"/>
+  <line x1="646" y1="128" x2="1140" y2="128" stroke="#242d3c" stroke-width="1"/>
+  <circle cx="670" cy="110" r="4.5" fill="#475569"/>
+  <circle cx="686" cy="110" r="4.5" fill="#475569"/>
+  <circle cx="702" cy="110" r="4.5" fill="#475569"/>
+  <text x="722" y="114" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">scamguard_triage.py</text>
+  <text x="1122" y="114" text-anchor="end" fill="#475569" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">Python 3.12</text>
 
-    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
-      <text x="672" y="136" fill="#818cf8">class <tspan fill="#38bdf8">AdityaSoni</tspan><tspan fill="#e2e8f0">:</tspan></text>
-      <text x="692" y="162" fill="#94a3b8">handle   <tspan fill="#64748b">=</tspan> <tspan fill="#34d399">"@mradityasonicse"</tspan></text>
-      <text x="692" y="186" fill="#94a3b8">domains  <tspan fill="#64748b">=</tspan> <tspan fill="#fbbf24">["AI", "AppSec", "Backend", "Web"]</tspan></text>
-      <text x="692" y="210" fill="#94a3b8">languages<tspan fill="#64748b">=</tspan> <tspan fill="#fbbf24">["Python", "TypeScript", "Bash"]</tspan></text>
-      <text x="692" y="234" fill="#94a3b8">flagships<tspan fill="#64748b">=</tspan> <tspan fill="#fbbf24">["ProdForge", "CyberShield-AI"]</tspan></text>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5">
+    <text x="670" y="158" fill="#64748b"># Verified public repos · mradityasonicse</text>
+    <text x="670" y="184" fill="#38bdf8">from <tspan fill="#e2e8f0">scamguard </tspan><tspan fill="#38bdf8">import </tspan><tspan fill="#e2e8f0">DetectorEngine</tspan></text>
+    <text x="670" y="208" fill="#38bdf8">from <tspan fill="#e2e8f0">cybershield </tspan><tspan fill="#38bdf8">import </tspan><tspan fill="#e2e8f0">PrivacyGuard</tspan></text>
 
-      <text x="672" y="272" fill="#818cf8">def <tspan fill="#2dd4bf">ship_production_system</tspan><tspan fill="#e2e8f0">(idea):</tspan></text>
-      <text x="692" y="296" fill="#94a3b8">arch <tspan fill="#64748b">=</tspan> design_and_harden(idea)</text>
-      <text x="692" y="320" fill="#94a3b8">verify_tests_and_security(arch)</text>
-      <text x="692" y="344" fill="#818cf8">return <tspan fill="#34d399">"Production-ready · Zero fluff"</tspan></text>
+    <text x="670" y="244" fill="#e2e8f0">engine <tspan fill="#64748b">= </tspan><tspan fill="#38bdf8">DetectorEngine</tspan>()</text>
+    <text x="670" y="268" fill="#e2e8f0">sanitized <tspan fill="#64748b">= </tspan><tspan fill="#38bdf8">PrivacyGuard</tspan>.scrub(payload)</text>
+    <text x="670" y="292" fill="#e2e8f0">verdict <tspan fill="#64748b">= </tspan>engine.inspect_apk_or_url(sanitized)</text>
 
-      <rect x="672" y="362" width="9" height="16" fill="#22d3ee" class="bd-cursor"/>
-    </g>
+    <text x="670" y="328" fill="#38bdf8">if <tspan fill="#e2e8f0">verdict.risk_score &gt;= 0.75:</tspan></text>
+    <text x="690" y="352" fill="#10b981">export_rescue_pdf(verdict, lang="hi-en")</text>
+
+    <rect x="670" y="368" width="8" height="14" fill="#38bdf8" class="bnd-cursor"/>
   </g>
 
-  <rect x="0" y="0" width="1200" height="44" fill="url(#banner-dark-scan)" class="bd-scanline"/>
+  <rect x="0" y="0" width="1200" height="40" fill="url(#bn-d-scan)" class="bnd-scan"/>
 </svg>
