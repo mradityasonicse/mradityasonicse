@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="100%" role="img" aria-label="Aditya Soni Engineering Metrics and Language Mix">
+  <defs>
+    <linearGradient id="met-dark-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b14"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="met-dark-bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#2dd4bf"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="220" rx="18" fill="url(#met-dark-bg)" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Card 1 -->
+  <rect x="24" y="22" width="212" height="114" rx="12" fill="#0b1222" stroke="#1e293b" stroke-width="1"/>
+  <text x="42" y="48" fill="#64748b" font-family="ui-monospace, monospace" font-size="11" font-weight="700" letter-spacing="1">PUBLIC REPOSITORIES</text>
+  <text x="42" y="92" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="38" font-weight="800">35</text>
+  <text x="42" y="118" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12">100% original · 0 forks</text>
+
+  <!-- Card 2 -->
+  <rect x="252" y="22" width="212" height="114" rx="12" fill="#0b1222" stroke="#1e293b" stroke-width="1"/>
+  <text x="270" y="48" fill="#64748b" font-family="ui-monospace, monospace" font-size="11" font-weight="700" letter-spacing="1">CORE DOMAINS</text>
+  <text x="270" y="92" fill="#818cf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="38" font-weight="800">4</text>
+  <text x="270" y="118" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12">AI · AppSec · Backend · Web</text>
+
+  <!-- Card 3 -->
+  <rect x="480" y="22" width="236" height="114" rx="12" fill="#0b1222" stroke="#1e293b" stroke-width="1"/>
+  <text x="498" y="48" fill="#64748b" font-family="ui-monospace, monospace" font-size="11" font-weight="700" letter-spacing="1">FLAGSHIP SYSTEMS</text>
+  <text x="498" y="92" fill="#2dd4bf" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="38" font-weight="800">10+</text>
+  <text x="498" y="118" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12">ProdForge · CyberShield · MV3</text>
+
+  <!-- Card 4: Language Mix -->
+  <rect x="732" y="22" width="444" height="114" rx="12" fill="#0b1222" stroke="#1e293b" stroke-width="1"/>
+  <text x="752" y="48" fill="#64748b" font-family="ui-monospace, monospace" font-size="11" font-weight="700" letter-spacing="1">PRIMARY REPO LANGUAGE DISTRIBUTION</text>
+
+  <!-- Segmented Bar (width=404) -->
+  <rect x="752" y="66" width="144" height="12" rx="3" fill="#3776ab"/>
+  <rect x="899" y="66" width="115" height="12" rx="3" fill="#3178c6"/>
+  <rect x="1017" y="66" width="101" height="12" rx="3" fill="#e34c26"/>
+  <rect x="1121" y="66" width="35" height="12" rx="3" fill="#f7df1e"/>
+
+  <g font-family="ui-monospace, monospace" font-size="11.5">
+    <circle cx="758" cy="103" r="4.5" fill="#3776ab"/>
+    <text x="769" y="107" fill="#e2e8f0">Python 35.7%</text>
+    <circle cx="878" cy="103" r="4.5" fill="#3178c6"/>
+    <text x="889" y="107" fill="#e2e8f0">TS 28.6%</text>
+    <circle cx="972" cy="103" r="4.5" fill="#e34c26"/>
+    <text x="983" y="107" fill="#e2e8f0">HTML 25.0%</text>
+    <circle cx="1074" cy="103" r="4.5" fill="#f7df1e"/>
+    <text x="1085" y="107" fill="#e2e8f0">JS 10.7%</text>
+  </g>
+
+  <!-- Bottom Signal Strip -->
+  <rect x="24" y="152" width="1152" height="46" rx="10" fill="#0b1222" stroke="#1e293b" stroke-width="1"/>
+  <rect x="24" y="152" width="4" height="46" rx="2" fill="url(#met-dark-bar)"/>
+  <text x="46" y="179.5" fill="#cbd5e1" font-family="ui-monospace, monospace" font-size="12.5">
+    <tspan fill="#34d399" font-weight="700">HIRING SIGNAL:</tspan>
+    <tspan> Ships end-to-end prototypes fast · Clean modular Python &amp; TypeScript · Security-first mindset · B.Tech CSE (2026–2030)</tspan>
+  </text>
+</svg>
