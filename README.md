@@ -1,18 +1,18 @@
 <div align="center">
 
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=3">
-    <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=3">
-    <img src="banner.svg?v=3" width="100%" alt="Aditya Soni — AI Systems, Cybersecurity, Python and TypeScript Engineer">
+    <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=4">
+    <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=4">
+    <img src="banner.svg?v=4" width="100%" alt="Aditya Soni — AI Systems, Cybersecurity, Python and TypeScript Engineer">
   </picture>
 
   <br><br>
 
   <p align="center">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="lanyard.svg?v=4">
-      <source media="(prefers-color-scheme: light)" srcset="lanyard-light.svg?v=4">
-      <img src="lanyard.svg?v=4" width="40%" alt="Aditya Soni Developer Pass">
+      <source media="(prefers-color-scheme: dark)" srcset="lanyard.svg?v=5">
+      <source media="(prefers-color-scheme: light)" srcset="lanyard-light.svg?v=5">
+      <img src="lanyard.svg?v=5" width="40%" alt="Aditya Soni Developer Pass">
     </picture>
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="stack.svg?v=2">
@@ -24,9 +24,9 @@
   <br>
 
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="metrics.svg?v=3">
-    <source media="(prefers-color-scheme: light)" srcset="metrics-light.svg?v=3">
-    <img src="metrics.svg?v=3" width="100%" alt="Verified GitHub Telemetry and Byte-Weighted Language Breakdown">
+    <source media="(prefers-color-scheme: dark)" srcset="metrics.svg?v=4">
+    <source media="(prefers-color-scheme: light)" srcset="metrics-light.svg?v=4">
+    <img src="metrics.svg?v=4" width="100%" alt="Verified GitHub Telemetry and Byte-Weighted Language Breakdown">
   </picture>
 
 </div>
@@ -53,7 +53,7 @@
 
 - **Education:** B.Tech in Computer Science &amp; Engineering, **Rungta International Skills University** (Bhilai, CG · 2026–2030)
 - **Verified Toolchain:** `Python 3.12` · `TypeScript` · `React` · `Vite` · `Bun` · `Docker` · `Chrome MV3` · `Pandas` · `Gemini API` · `Linux`
-- **Repositories:** [**Browse all 33 public repositories →**](https://github.com/mradityasonicse?tab=repositories)
+- **Repositories:** [**Browse all 34 public repositories →**](https://github.com/mradityasonicse?tab=repositories)
 
 <p align="center"><img src="divider.svg?v=2" width="100%" alt="" /></p>
 
