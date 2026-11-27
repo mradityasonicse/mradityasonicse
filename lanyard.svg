@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 390" width="100%" role="img" aria-label="Aditya Soni Developer ID Badge">
+  <defs>
+    <linearGradient id="lanyard-strap" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="50%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="lanyard-card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#111c33"/>
+      <stop offset="100%" stop-color="#0b1222"/>
+    </linearGradient>
+    <linearGradient id="lanyard-chip-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+    <linearGradient id="lanyard-glare" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="48%" stop-color="#38bdf8" stop-opacity="0.16"/>
+      <stop offset="52%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="lanyard-card-clip">
+      <rect x="80" y="94" width="300" height="278" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    <![CDATA[
+      .lanyard-rig {
+        transform-origin: 230px 10px;
+        animation: lanyardSwing 4.2s ease-out forwards, lanyardDrift 6s ease-in-out 4.2s infinite;
+      }
+      .lanyard-sheen {
+        animation: lanyardGlare 4.5s ease-in-out infinite;
+      }
+      @keyframes lanyardSwing {
+        0%   { transform: rotate(9deg); }
+        18%  { transform: rotate(-6.5deg); }
+        36%  { transform: rotate(4.2deg); }
+        54%  { transform: rotate(-2.5deg); }
+        72%  { transform: rotate(1.2deg); }
+        100% { transform: rotate(0deg); }
+      }
+      @keyframes lanyardDrift {
+        0%, 100% { transform: rotate(0deg); }
+        50% { transform: rotate(0.9deg); }
+      }
+      @keyframes lanyardGlare {
+        0%   { transform: translateX(-340px); }
+        45%, 100% { transform: translateX(360px); }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .lanyard-rig, .lanyard-sheen { animation: none; transform: none; }
+      }
+    ]]>
+  </style>
+
+  <g class="lanyard-rig">
+    <polygon points="198,0 262,0 248,64 212,64" fill="url(#lanyard-strap)" stroke="#475569" stroke-width="1"/>
+    <text x="230" y="34" text-anchor="middle" fill="#94a3b8" font-family="ui-monospace, monospace" font-size="9" font-weight="700" letter-spacing="2">RISU · CSE</text>
+    <rect x="214" y="60" width="32" height="14" rx="4" fill="#94a3b8" stroke="#e2e8f0" stroke-width="1"/>
+    <circle cx="230" cy="80" r="8" fill="none" stroke="#cbd5e1" stroke-width="3"/>
+
+    <rect x="80" y="94" width="300" height="278" rx="18" fill="url(#lanyard-card-grad)" stroke="#38bdf8" stroke-opacity="0.45" stroke-width="1.5"/>
+    <rect x="206" y="106" width="48" height="10" rx="5" fill="#020617" stroke="#475569" stroke-width="1"/>
+
+    <text x="102" y="142" fill="#38bdf8" font-family="ui-monospace, monospace" font-size="11" font-weight="700" letter-spacing="1.2">ENG PASS · 2026</text>
+    <rect x="314" y="124" width="42" height="28" rx="5" fill="url(#lanyard-chip-grad)" stroke="#fef3c7" stroke-width="0.8"/>
+    <path d="M314,138 H356 M335,124 V152" stroke="#78350f" stroke-width="0.9"/>
+
+    <circle cx="144" cy="202" r="38" fill="#0f2942" stroke="#38bdf8" stroke-width="2.2"/>
+    <text x="144" y="213" text-anchor="middle" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="28" font-weight="800">AS</text>
+
+    <text x="198" y="188" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="800">Aditya Soni</text>
+    <text x="198" y="209" fill="#38bdf8" font-family="ui-monospace, monospace" font-size="12" font-weight="600">@mradityasonicse</text>
+    <text x="198" y="230" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12">B.Tech CSE · RISU Bhilai</text>
+
+    <line x1="102" y1="258" x2="358" y2="258" stroke="#1e293b" stroke-width="1.2"/>
+    <text x="102" y="280" fill="#64748b" font-family="ui-monospace, monospace" font-size="10.5">PILLARS</text>
+    <text x="102" y="298" fill="#e2e8f0" font-family="ui-monospace, monospace" font-size="12" font-weight="700">AI · AppSec · Backend · Web</text>
+    <text x="302" y="280" fill="#64748b" font-family="ui-monospace, monospace" font-size="10.5">STATUS</text>
+    <text x="302" y="298" fill="#34d399" font-family="ui-monospace, monospace" font-size="12" font-weight="700">HIREABLE</text>
+
+    <g fill="#cbd5e1" opacity="0.85">
+      <rect x="104" y="320" width="3" height="24"/>
+      <rect x="110" y="320" width="6" height="24"/>
+      <rect x="120" y="320" width="2" height="24"/>
+      <rect x="126" y="320" width="4" height="24"/>
+      <rect x="134" y="320" width="7" height="24"/>
+      <rect x="145" y="320" width="3" height="24"/>
+      <rect x="152" y="320" width="5" height="24"/>
+      <rect x="161" y="320" width="2" height="24"/>
+      <rect x="167" y="320" width="6" height="24"/>
+      <rect x="177" y="320" width="3" height="24"/>
+      <rect x="184" y="320" width="4" height="24"/>
+      <rect x="192" y="320" width="7" height="24"/>
+      <rect x="203" y="320" width="2" height="24"/>
+      <rect x="209" y="320" width="5" height="24"/>
+    </g>
+    <text x="356" y="337" text-anchor="end" fill="#64748b" font-family="ui-monospace, monospace" font-size="11">SN-2026-CSE</text>
+
+    <g clip-path="url(#lanyard-card-clip)">
+      <polygon points="0,94 90,94 -10,372 -100,372" fill="url(#lanyard-glare)" class="lanyard-sheen"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="100%" role="img" aria-label="Aditya Soni - Software, AI, Cybersecurity and Full-Stack Engineer Light Hero Banner">
+  <defs>
+    <linearGradient id="banner-light-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="55%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#eef2ff"/>
+    </linearGradient>
+    <linearGradient id="banner-light-shimmer" x1="0%" y1="0%" x2="200%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="35%" stop-color="#7c3aed"/>
+      <stop offset="65%" stop-color="#db2777"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+      <animate attributeName="x1" values="-100%;100%" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="100%;300%" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="banner-light-scan" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#0284c7" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="banner-light-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#cbd5e1" stroke-width="0.7" stroke-opacity="0.5"/>
+    </pattern>
+    <clipPath id="banner-light-role-clip">
+      <rect x="64" y="216" width="560" height="44"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    <![CDATA[
+      .bl-pulse { animation: blPulse 2s ease-in-out infinite; }
+      .bl-cursor { animation: blBlink 1s step-end infinite; }
+      .bl-scanline { animation: blScan 5s linear infinite; }
+      .bl-role-1 { animation: blRole1 12s infinite; }
+      .bl-role-2 { animation: blRole2 12s infinite; }
+      .bl-role-3 { animation: blRole3 12s infinite; }
+      .bl-role-4 { animation: blRole4 12s infinite; }
+      @keyframes blPulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.35; }
+      }
+      @keyframes blBlink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @keyframes blScan {
+        0% { transform: translateY(-60px); }
+        100% { transform: translateY(480px); }
+      }
+      @keyframes blRole1 {
+        0%, 21% { opacity: 1; transform: translateY(0px); }
+        25%, 96% { opacity: 0; transform: translateY(-10px); }
+        100% { opacity: 1; transform: translateY(0px); }
+      }
+      @keyframes blRole2 {
+        0%, 22% { opacity: 0; transform: translateY(10px); }
+        26%, 46% { opacity: 1; transform: translateY(0px); }
+        50%, 100% { opacity: 0; transform: translateY(-10px); }
+      }
+      @keyframes blRole3 {
+        0%, 47% { opacity: 0; transform: translateY(10px); }
+        51%, 71% { opacity: 1; transform: translateY(0px); }
+        75%, 100% { opacity: 0; transform: translateY(-10px); }
+      }
+      @keyframes blRole4 {
+        0%, 72% { opacity: 0; transform: translateY(10px); }
+        76%, 96% { opacity: 1; transform: translateY(0px); }
+        100% { opacity: 0; transform: translateY(-10px); }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .bl-pulse, .bl-cursor, .bl-scanline, .bl-role-2, .bl-role-3, .bl-role-4 { animation: none; opacity: 0; }
+        .bl-role-1 { animation: none; opacity: 1; transform: none; }
+      }
+    ]]>
+  </style>
+
+  <rect width="1200" height="460" rx="20" fill="url(#banner-light-bg)"/>
+  <rect width="1200" height="460" rx="20" fill="url(#banner-light-grid)"/>
+  <circle cx="170" cy="85" r="190" fill="#0284c7" fill-opacity="0.06"/>
+  <circle cx="1020" cy="375" r="220" fill="#7c3aed" fill-opacity="0.06"/>
+  <rect width="1198" height="458" x="1" y="1" rx="19" fill="none" stroke="#cbd5e1" stroke-width="1.5"/>
+
+  <circle cx="56" cy="46" r="6" fill="#ef4444"/>
+  <circle cx="78" cy="46" r="6" fill="#f59e0b"/>
+  <circle cx="100" cy="46" r="6" fill="#10b981"/>
+  <text x="126" y="51" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">aditya@risu-cse:~/engineering-studio</text>
+
+  <rect x="64" y="82" width="286" height="30" rx="15" fill="#ecfdf5" stroke="#10b981" stroke-opacity="0.65" stroke-width="1"/>
+  <circle cx="84" cy="97" r="4.5" fill="#059669" class="bl-pulse"/>
+  <text x="98" y="101.5" fill="#047857" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="700" letter-spacing="0.8">OPEN FOR INTERNSHIPS &amp; ROLES</text>
+
+  <text x="64" y="146" fill="#0284c7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" font-weight="700">$ whoami --full-spectrum</text>
+  <text x="64" y="206" fill="url(#banner-light-shimmer)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="1">ADITYA SONI</text>
+
+  <g clip-path="url(#banner-light-role-clip)">
+    <text x="64" y="246" fill="#0f172a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20.5" font-weight="600" class="bl-role-1">Python, Backend &amp; CLI Systems Engineer</text>
+    <text x="64" y="246" fill="#0284c7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20.5" font-weight="600" class="bl-role-2">AI Engineering &amp; Autonomous Agents Builder</text>
+    <text x="64" y="246" fill="#0f766e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20.5" font-weight="600" class="bl-role-3">Cybersecurity, Linux &amp; Bug Bounty Researcher</text>
+    <text x="64" y="246" fill="#7c3aed" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20.5" font-weight="600" class="bl-role-4">Full-Stack TypeScript, React &amp; Next.js Developer</text>
+  </g>
+
+  <text x="64" y="294" fill="#475569" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15.5">Shipping autonomous AI tools, defensive security engines, Chrome</text>
+  <text x="64" y="318" fill="#475569" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15.5">MV3 extensions, and full-stack TypeScript platforms end-to-end.</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">
+    <rect x="64" y="352" width="136" height="32" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="132" y="372" text-anchor="middle" fill="#334155">Bhilai, India</text>
+
+    <rect x="212" y="352" width="166" height="32" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="295" y="372" text-anchor="middle" fill="#0284c7">@mradityasonicse</text>
+
+    <rect x="390" y="352" width="212" height="32" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="496" y="372" text-anchor="middle" fill="#7c3aed">30+ Public Repositories</text>
+  </g>
+
+  <g>
+    <rect x="648" y="68" width="494" height="324" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+    <rect x="648" y="68" width="494" height="36" rx="14" fill="#f1f5f9"/>
+    <rect x="648" y="90" width="494" height="14" fill="#f1f5f9"/>
+    <circle cx="672" cy="86" r="5" fill="#ef4444"/>
+    <circle cx="690" cy="86" r="5" fill="#f59e0b"/>
+    <circle cx="708" cy="86" r="5" fill="#10b981"/>
+    <text x="732" y="90" fill="#475569" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">engineer_profile.py</text>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
+      <text x="672" y="136" fill="#7c3aed">class <tspan fill="#0284c7">AdityaSoni</tspan><tspan fill="#0f172a">:</tspan></text>
+      <text x="692" y="162" fill="#334155">handle   <tspan fill="#64748b">=</tspan> <tspan fill="#059669">"@mradityasonicse"</tspan></text>
+      <text x="692" y="186" fill="#334155">domains  <tspan fill="#64748b">=</tspan> <tspan fill="#b45309">["AI", "AppSec", "Backend", "Web"]</tspan></text>
+      <text x="692" y="210" fill="#334155">languages<tspan fill="#64748b">=</tspan> <tspan fill="#b45309">["Python", "TypeScript", "Bash"]</tspan></text>
+      <text x="692" y="234" fill="#334155">flagships<tspan fill="#64748b">=</tspan> <tspan fill="#b45309">["ProdForge", "CyberShield-AI"]</tspan></text>
+
+      <text x="672" y="272" fill="#7c3aed">def <tspan fill="#0284c7">ship_production_system</tspan><tspan fill="#0f172a">(idea):</tspan></text>
+      <text x="692" y="296" fill="#334155">arch <tspan fill="#64748b">=</tspan> design_and_harden(idea)</text>
+      <text x="692" y="320" fill="#334155">verify_tests_and_security(arch)</text>
+      <text x="692" y="344" fill="#7c3aed">return <tspan fill="#059669">"Production-ready · Zero fluff"</tspan></text>
+
+      <rect x="672" y="362" width="9" height="16" fill="#0284c7" class="bl-cursor"/>
+    </g>
+  </g>
+
+  <rect x="0" y="0" width="1200" height="44" fill="url(#banner-light-scan)" class="bl-scanline"/>
+</svg>
