@@ -11,7 +11,7 @@
 
   <!-- Swinging Lanyard ID Badge & Animated Engineering Capabilities Orbit -->
   <p align="center">
-    <img src="lanyard.svg?v=1" width="40%" alt="Aditya Soni Developer ID Badge">
+    <img src="lanyard.svg?v=2" width="40%" alt="Aditya Soni Developer ID Badge">
     <img src="stack.svg?v=1" width="58%" alt="Aditya Soni Tech Stack Orbit &amp; Capabilities">
   </p>
 
