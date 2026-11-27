@@ -68,7 +68,7 @@
   <!-- Concrete Verified Proof Strip -->
   <line x1="60" y1="336" x2="600" y2="336" stroke="#1b222d" stroke-width="1"/>
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
-    <text x="60" y="366" fill="#f8fafc" font-size="20" font-weight="700">32</text>
+    <text x="60" y="366" fill="#f8fafc" font-size="20" font-weight="700">33</text>
     <text x="60" y="386" fill="#64748b" font-size="12">Public repos (0 forks)</text>
 
     <text x="240" y="366" fill="#38bdf8" font-size="20" font-weight="700">381</text>
